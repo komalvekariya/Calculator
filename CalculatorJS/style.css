@@ -1,0 +1,116 @@
+html,body{
+
+
+  background-image: radial-gradient(circle, white,grey);
+}
+
+
+.header-div
+{
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0px;
+
+}
+.container-div
+{
+	background-color: black;
+	width: 400px;
+	height:550px;
+	text-align: center;
+	align-content: center;
+	align-content: center;
+	text-align: center;
+	margin-top: 30px;
+  margin-left: 35%
+}
+
+
+input[type=text] 
+{
+  width:70%;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 20px 0;
+   padding-bottom: 10px;
+  border-radius: 7px;
+  border-width: 3px;
+ border-style: solid;
+   font-size: 30px;
+  outline:none; 
+  align-content: center;
+  text-align:right;
+  background-color: black;
+  border-color: white;
+  color: white;
+
+}
+
+.btn-clear
+{
+
+	 border-radius: 50%;
+    border: none;
+    background: grey;
+    color: #fefefe;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    outline: none;
+    
+}
+
+.btn-clear:hover 
+{
+  background-color: black;
+  color: white;
+}
+
+
+
+
+.btn-div
+{
+	text-align: left;
+	margin-left: 40px;
+}
+
+.keys
+{
+	 border-radius: 50%;
+    border: none;
+    background: grey;
+    color: #fefefe;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+   margin-top: 10px;
+   margin-right: 10px; 
+   outline: none;
+}
+
+.keys:hover 
+{
+  background-color: black;
+  color: white;
+}
+.operator
+{
+	 border-radius: 50%;
+    border: none;
+    background: darkorange;
+    color: #fefefe;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+   margin-top: 15px;
+   margin-right: 15px; 
+   outline: none;
+
+}
+.operator:hover 
+{
+  background-color: black;
+  color: white;
+}

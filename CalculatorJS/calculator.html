@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+ 
+</head>
+<body >
+  <form name="calc">
+    <div><p class="header-div">Calculator</p></div>
+  <div class="container-div">
+
+    <div><input type="text"  id="textId" readonly="true"></div>
+
+    <div class="btn-div"> 
+      <input type="button" class="btn-clear" value="AC" onclick='clearscr("")'>
+      <input type="button" class="btn-clear" value="<==" onclick='BackSpace()'> 
+    </div>
+     
+     <div class="btn-div"> 
+       <input type="button" value="7" class="keys" onclick='thisValue("7")'>
+       <input type="button" value="8" class="keys" onclick='thisValue("8")'>
+       <input type="button" value="9" class="keys" onclick='thisValue("9")'>
+       <input type="button" value="+" class="operator" onclick='thisValue("+")'>
+
+     </div>
+
+      <div class="btn-div"> 
+       <input type="button" value="6" class="keys" onclick='thisValue("6")'>
+       <input type="button" value="5" class="keys" onclick='thisValue("5")'>
+       <input type="button" value="4" class="keys" onclick='thisValue("4")'>
+       <input type="button" value="-" class="operator" onclick='thisValue("-")'>
+
+     </div>
+
+      <div class="btn-div"> 
+       <input type="button" value="3" class="keys" onclick='thisValue("3")'>
+       <input type="button" value="2" class="keys" onclick='thisValue("2")'>
+       <input type="button" value="1" class="keys" onclick='thisValue("1")'>
+       <input type="button" value="x" class="operator" onclick='thisValue("x")'>
+
+     </div>
+
+     <div class="btn-div"> 
+       <input type="button" value="." class="keys" onclick='thisValue(".")'>
+       <input type="button" value="0" class="keys" onclick='thisValue("0")'>
+       <input type="button" value="=" class="keys" onclick='equalsto()'>
+       <input type="button" value="/" class="operator" onclick='thisValue("/")'>
+
+     </div>
+
+  </div>
+</center>
+</form>
+
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="calculator.js"></script>
+</body>
+</html>
